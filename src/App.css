@@ -75,6 +75,9 @@ body {
   text-align: center;
   margin-top: auto;
 }
+.footer > p > a {
+  color: #000;
+}
 
 @media (max-width: 600px) {
   .input-container input {
