@@ -10,7 +10,6 @@ const API_KEY = 'dd27b83e7b1c5656c019bfe8fbf00db5';
 const App = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
-
   const fetchWeather = async (city) => {
     try {
       const response = await axios.get(
@@ -25,7 +24,6 @@ const App = () => {
       setWeatherData(null);
     }
   };
-
   return (
     <div className="app">
       <Header />
