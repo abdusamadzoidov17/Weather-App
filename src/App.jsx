@@ -6,9 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 import './App.css';
-
-const API_KEY = 'dd27b83e7b1c5656c019bfe8fbf00db5'; // Замените на ваш API ключ
-
+const API_KEY = 'dd27b83e7b1c5656c019bfe8fbf00db5';
 const App = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
